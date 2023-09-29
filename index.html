@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- line icons -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+</head>
+
+<body>
+    <!-- ------------------------- Header ------------------------- -->
+    <!-- <div class="container nav-container">
+        <a href="" class="logo">Zhulie</a>
+        <ul class="nav-links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div> -->
+
+    <header class="header" id="header">
+        <!-- nav -->
+        <nav class="nav container padd-15">
+            <!-- nav-logo -->
+            <a href="#home" class="nav-logo">
+                <h2>Zhulie</h2>
+            </a>
+            <!-- nav-menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav-list -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- nav-close -->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
+                </div>
+                <!-- nav-btn -->
+
+            </div>
+            <div class="nav-btns">
+                <!-- theme-change-btn -->
+                <!-- <i class="lni lni-pallet change-theme" id="theme-change-btn"></i> -->
+                <!-- toggle-btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-menu"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- ------------------------- Main ------------------------- -->
+
+    <main class="main-content">
+
+        <!--------------------------- Home --------------------------->
+
+        <section class="home" id="home">
+            <div class="container">
+                <!-- intro -->
+                <div class="intro">
+                    <!-- img -->
+                    <img src="./img/default-profile-purple-dark.jpeg" alt="prof-pic">
+                    <!-- info -->
+                    <h1>Khine Hsu Thwel</h1>
+                    <span>I'm a <span class="info-text">Front-end developer</span>.</span>
+                    <!-- social-icons -->
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-github-original"></i></a></li>
+                    </ul>
+                    <!-- button -->
+                    <div>
+                        <a href="#" class="btn btn-default">Hire me</a>
+                    </div>
+                    <!-- scroll down mouse wheel
+                    <div class="scroll-down">
+                        <a href="" class="mouse-wrapper">
+                            <span>Scroll Down</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------- About --------------------------->
+
+        <section class="about section" id="about">
+            <div class="container">
+                <!-- section-title -->
+                <h2 class="section-title padd-15">About Me</h2>
+                <div class="about-content padd-15">
+                    <div class="rounded">
+                        <div class="row">
+                            <div class="about-text padd-15">
+                                <!-- about-text -->
+                                <p>I am Khine Hsu Thwel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+                                    ea aliquid aliquam, voluptates totam error modi quam inventore unde aperiam
+                                    dolores ullam vitae minima, sit vero libero cum eaque labore!</p>
+                                <div>
+                                    <a href="#" class="btn btn-default">Download CV</a>
+                                </div>
+                            </div>
+                            <div class="education padd-15">
+                                    <div class="edu-item">
+                                        <h3>Education</h3>
+                                        <div class="edu-box">
+                                            <div class="edu-content">
+                                                <span class="year"><i class="lni lni-calendar"></i>2022-current</span>
+                                                <h4>Auston University</h4>
+                                                <p>Infrastructure and Networks</p>
+                                            </div>
+                                            <div class="edu-content">
+                                                <span class="year"><i class="lni lni-calendar"></i>Nov 2022</span>
+                                                <h4>Wallstreet English</h4>
+                                                <p>Diploma in English</p>
+                                            </div>
+                                            <div class="edu-content">
+                                                <span class="year"><i class="lni lni-calendar"></i>2009-2020</span>
+                                                <h4>B.E.H.S(1)Dagon</h4>
+                                                <p>High School Diploma</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--------------------------- Skills --------------------------->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <!-- section-title -->
+                <h2 class="section-title padd-15">Skills</h2>
+                <div class="about-content padd-15">
+                    <div class="rounded">
+                        <div class="row">
+                            <div class="skills-box">
+                                <div class="skills-content">
+                                    <h3>Front-End</h3>
+                                    <div class="content">
+                                        <span><i class="lni lni-html5"></i> HTML</span>
+                                        <span><i class="lni lni-css3"></i> CSS</span>
+                                        <span><i class="lni lni-javascript"></i> JS</span>
+                                        <span><i class="lni lni-bootstrap"></i> Bootstrap</span>
+                                        <span><i class="lni lni-react"></i> React</span>
+                                    </div>
+                                </div>
+                                <div class="skills-content">
+                                    <h3>Back-End</h3>
+                                    <div class="content">
+                                        <span><i class="lni lni-python"></i> Python</span>
+                                        <span><i class="lni lni-java"></i> Java</span>
+                                        <span><i class="lni lni-php"></i> PHP</span>
+                                        <span><i class="lni lni-nodejs"></i> Node</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------- Projects --------------------------->
+
+        <section class="project section" id="projects">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">My Projects</h2>
+                <div class="project-content padd-15">
+                        <div class="project-box">
+                            <div class="project-item-content">
+                                <!-- project item -->
+                                <div class="project-item padd-15">
+                                    <div class="project-item-inner">
+                                        <div class="project-item-thumbnail">
+                                            <img src="./img/project-img/tic-tac-toe.png" alt="">
+                                            <div class="mask"></div>
+                                        </div>
+                                        <h3 class="project-item-title">Tic-Tac-Toe</h3>
+                                        <a href="https://kht04.github.io/Tic-Tac-Toe/" target="_blank"
+                                            class="more-button">view</a>
+                                    </div>
+                                </div>
+                                <!-- project item -->
+                                <div class="project-item padd-15">
+                                    <div class="project-item-inner">
+                                        <div class="project-item-thumbnail">
+                                            <img src="./img/project-img/pet-care.jpg" alt="">
+                                            <div class="mask"></div>
+                                        </div>
+                                        <h3 class="project-item-title">Pet-Care Website</h3>
+                                        <a href="https://kht04.github.io/Zhulie-Pet-Care/" target="_blank"
+                                            class="more-button">view</a>
+                                    </div>
+                                </div>
+                                <!-- project item -->
+                                <div class="project-item padd-15">
+                                    <div class="project-item-inner">
+                                        <div class="project-item-thumbnail">
+                                            <img src="./img/project-img/to-do-list.png" alt="">
+                                            <div class="mask"></div>
+                                        </div>
+                                        <h3 class="project-item-title">To-Do-List</h3>
+                                        <a href="" target="_blank" class="more-button">view</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--------------------------- Contact --------------------------->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Contact Us</h2>
+                <div class="padd-15">
+                    <div class="row">
+                        <!-- contact box -->
+                        <div class="contact-box padd-15">
+                            <div class="contact-data">
+                                <!-- contact information -->
+                                <div class="contact-information">
+                                    <h3 class="contact-subtitle">Call Us</h3>
+                                    <span class="contact-description">
+                                        <i class="lni lni-phone contact-icon"></i>
+                                        +959 799 676 727
+                                    </span>
+                                </div>
+                                <!-- contact information -->
+                                <div class="contact-information">
+                                    <h3 class="contact-subtitle">Email Us</h3>
+                                    <span class="contact-description">
+                                        <i class="lni lni-user contact-icon"></i>
+                                        mayju2004@gmail.com
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- contact form -->
+                        <form action="" class="contact-form padd-15">
+                            <div class="contact-inputs">
+                                <!-- contact content -->
+                                <div class="contact-content">
+                                    <input type="email" name="" id="" class="contact-input">
+                                    <label for="" class="contact-label">Email</label>
+                                    <span></span>
+                                </div>
+                                <!-- contact content -->
+                                <div class="contact-content">
+                                    <input type="text" name="" id="" class="contact-input">
+                                    <label for="" class="contact-label">Subject</label>
+                                    <span></span>
+                                </div>
+                                <!-- contact content -->
+                                <div class="contact-content contact-area">
+                                    <textarea name="" id="" cols="30" rows="10" class="contact-input"></textarea>
+                                    <label for="" class="contact-label">Message</label>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-default">Send Message</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------- footer --------------------------->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text padd-15">
+                    <p>&copy; Zhulie 2023. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!--------------------------- Theme Customize --------------------------->
+
+        <!-- <div class="customize-theme">
+            <div class="card">
+                <h2>Customize your view</h2>
+                <p>Manage uor font size</p>
+                
+                
+                <div class="font-size">
+                    <h3>Font size</h3>
+                    <div>
+                        <h6>Aa</h6>
+                        <div class="choose-size">
+                            <span class="font-size-1"></span>
+                            <span class="font-size-1]2"></span>
+                            <span class="font-size-3"></span>
+                            <span class="font-size-4"></span>
+                        </div>
+                        <h3>Aa</h3>
+                    </div>
+                </div>
+                
+            
+                <div class="color">
+                    <h3>color</h3>
+                    <div class="choose-color">
+                        <span class="color-1"></span>
+                        <span class="color-2"></span>
+                        <span class="color-3" active></span>
+                        <span class="color-4"></span>
+                        <span class="color-5"></span>
+                    </div>
+                </div>
+                
+                
+                <div class="background">
+                    <h3>Background</h3>
+                    <div class="choose-bg">
+                        <div class="bg-1">
+                            <span></span>
+                            <h5 for="bg-1">Light</h5>
+                        </div><div class="bg-2">
+                            <span></span>
+                            <h5 for="bg-2">Dim</h5>
+                        </div><div class="bg-3">
+                            <span></span>
+                            <h5 for="bg-3">Dark</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
